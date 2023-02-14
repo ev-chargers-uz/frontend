@@ -1,9 +1,10 @@
 ---
 import Document from "@app/layout/Document.astro";
 import { MainHeader } from "@widgets/header";
+import { MainNavbar } from "@widgets/navbar";
 ---
 
 <Document title="main page">
-	<MainHeader />
+	<MainHeader navbar={MainNavbar} />
 	<main>main page</main>
 </Document>
