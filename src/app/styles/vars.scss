@@ -1,8 +1,11 @@
 :root {
-
 	// FONTS
-	--font-primary: 'Montserrat', sans-serif;
-	// Available font weights: 500, 700
+	--font-primary: 'Montserrat', sans-serif; // Available font weights: 500, 700
+	--font-weight-h: 700;
+	--font-weight-p: 500;
 
 	// COLORS
+	--background-color: var(--color-neutral-1000);
+	--text-color-h1: var(--color-neutral-0);
+	--text-color-p: var(--color-neutral-500);
 }
