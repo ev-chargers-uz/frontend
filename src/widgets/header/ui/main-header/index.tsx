@@ -1,5 +1,15 @@
-export const MainHeader = () => {
+import type { JSX } from "solid-js";
+
+export interface MainHeaderProps {
+	navbar?: JSX.Element;
+}
+
+export const MainHeader = (props: MainHeaderProps) => {
 	return (
-		<header>im header</header>
+		<header>
+			logo
+			{props.navbar}
+			buttons
+		</header>
 	)
 }
