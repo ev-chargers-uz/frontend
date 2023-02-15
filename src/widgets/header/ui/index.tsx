@@ -1,10 +1,10 @@
 import type { JSX } from "solid-js";
 
-export interface MainHeaderProps {
+export interface HeaderProps {
 	navbar?: JSX.Element;
 }
 
-export const MainHeader = (props: MainHeaderProps) => {
+export const Header = (props: HeaderProps) => {
 	return (
 		<header>
 			logo

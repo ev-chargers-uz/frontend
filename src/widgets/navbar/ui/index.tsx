@@ -1,4 +1,4 @@
-export const MainNavbar = () => {
+export const Navbar = () => {
 	return (
 		<nav>navbar</nav>
 	)
