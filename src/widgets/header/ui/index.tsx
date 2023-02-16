@@ -13,8 +13,10 @@ export const Header = (props: HeaderProps) => {
 		<header class={styles.header}>
 			<Logo image="./logo.svg" link="/" width={133} height={30} />
 			{props.navbar}
-			<ChangeLang />
-			<AuthButton />
+			<div>
+				<ChangeLang />
+				<AuthButton />
+			</div>
 		</header>
 	)
 }
