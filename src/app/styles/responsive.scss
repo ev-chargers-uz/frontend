@@ -1,31 +1,31 @@
 @mixin breakpoint ($size) {
 
 	@if $size == sm {    
-		@media (max-width: 640px) {
+		@media (min-width: 640px) {
 			@content;
 		}
 	}
 
 	@if $size == md {
-		@media (max-width: 768px) {
+		@media (min-width: 768px) {
 			@content;
 		}
 	}
 
 	@if $size == lg {
-		@media (max-width: 1024px) {
+		@media (min-width: 1024px) {
 			@content;
 		}
 	}
 
 	@if $size == xl {
-		@media (max-width: 1280px) {
+		@media (min-width: 1280px) {
 			@content;
 		}
 	}
 
 	@if $size == 2xl {
-		@media (max-width: 1536px) {
+		@media (min-width: 1536px) {
 			@content;
 		}
 	}
