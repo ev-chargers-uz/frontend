@@ -1,5 +1,7 @@
+import styles from "./styles.module.scss";
+
 export const AuthButton = () => {
 	return (
-		<div>auth button</div>
+		<button class={styles.button}>Log in</button>
 	)
 }
