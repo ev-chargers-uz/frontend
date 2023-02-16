@@ -11,12 +11,18 @@ export interface HeaderProps {
 export const Header = (props: HeaderProps) => {
 	return (
 		<header class={styles.header}>
+
 			<Logo image="./logo.svg" link="/" width={133} height={30} />
-			{props.navbar}
-			<div>
+
+			<div class={styles.navbar}>
+				{props.navbar}
+			</div>
+
+			<div class={styles.buttons}>
 				<ChangeLang />
 				<AuthButton />
 			</div>
+
 		</header>
 	)
 }

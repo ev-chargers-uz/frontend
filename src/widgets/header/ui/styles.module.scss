@@ -1,5 +1,28 @@
+@import "../../../app/index.scss";
+
 .header {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
+	margin-top: 2.5rem;
+}
+
+.navbar {
+	display: none;
+
+	@include breakpoint(md) {
+		display: block;
+	}
+}
+
+.buttons {
+	display: none;
+
+	@include breakpoint(md) {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0 1.875rem;
+	}
 }
