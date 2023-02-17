@@ -3,6 +3,7 @@
 	padding: 0.78125rem 1.875rem;
 	border-radius: 999rem;
 	cursor: pointer;
+	user-select: none;
 	font-family: var(--font-primary);
 	font-size: var(--font-size-p);
 	border: 1px green solid;
