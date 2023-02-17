@@ -1,25 +1,9 @@
 .button {
-	background-color: var(--background-color);
+	background-color: transparent;
 	padding: 0.78125rem 1.875rem;
 	border-radius: 999rem;
 	cursor: pointer;
 	font-family: var(--font-primary);
 	font-size: var(--font-size-p);
-
-	// necessary for radius corner with a gradient
-	position: relative;
-	box-sizing: border-box;
-	background-clip: padding-box;
-	border: 1px transparent solid;
-
-	// necessary for radius corner with a gradient
-	&::before {
-		content: '';
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    z-index: -1;
-    margin: -1px;
-    border-radius: inherit;
-    background: linear-gradient(273.58deg, #4AAF3A 0%, #245CEC 100%);
-  }
+	border: 1px green solid;
 }
