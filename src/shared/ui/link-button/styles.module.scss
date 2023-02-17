@@ -1,5 +1,6 @@
 .linkButton {
 	cursor: pointer;
+	user-select: none;
 	font-size: 1.25rem;
 	font-weight: var(--font-weight-bold);
 	line-height: 1.5rem;
