@@ -1,16 +1,13 @@
 ---
 import Document from "@app/Document.astro";
-import { Container } from "@shared/ui";
 import { Header } from "@widgets/header";
 import { MainHero } from "@widgets/hero";
 import { Navbar } from "@widgets/navbar";
 ---
 
 <Document title="main page">
-	<Container>
-		<Header navbar={Navbar} />
-		<main>
-			<MainHero />
-		</main>
-	</Container>
+	<Header navbar={Navbar} />
+	<main>
+		<MainHero />
+	</main>
 </Document>
