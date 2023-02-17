@@ -1,5 +1,17 @@
+.section {
+	background-image: url("/images/bg-image01.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 90vh;
+}
+
 .wrapper {
 	max-width: 29.875rem;
+	min-height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
 }
 
 .title {
@@ -12,4 +24,5 @@
 	font-size: var(--font-size-p);
 	line-height: var(--line-height-p);
 	color: var(--text-color-p);
+	margin: 10px 0 20px;
 }

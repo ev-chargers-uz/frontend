@@ -1,8 +1,10 @@
+import { Container } from "@shared/ui";
 import styles from "./styles.module.scss";
 
 export const MainHero = () => {
 	return (
-		<section>
+		<section class={styles.section}>
+			<Container>
 
 			<div class={styles.wrapper}>
 				<h1 class={styles.title}>Charge your car with us with faster and safe way</h1>
@@ -10,6 +12,7 @@ export const MainHero = () => {
 				<button>Learn more</button>
 			</div>
 
+			</Container>
 		</section>
 	)
 }
