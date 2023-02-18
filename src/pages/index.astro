@@ -1,9 +1,10 @@
 ---
 import Document from "@app/Document.astro";
-import { Block1, Block2, Block3 } from "@widgets/blocks";
+import { Block1, Block2, Block3 } from "@shared/landing/blocks";
 import { Header } from "@widgets/header";
-import { MainHero } from "@widgets/hero";
+import { MainHero } from "@shared/landing/hero";
 import { Navbar } from "@widgets/navbar";
+import { Advantages } from "@shared/landing/advantages";
 ---
 
 <Document title="main page">
@@ -13,5 +14,6 @@ import { Navbar } from "@widgets/navbar";
 		<Block1 />
 		<Block2 />
 		<Block3 />
+		<Advantages />
 	</main>
 </Document>

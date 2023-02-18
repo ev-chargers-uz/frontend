@@ -1,0 +1,12 @@
+.title {
+	font-size: var(--font-size-h2);
+	font-weight: var(--font-weight-bold);
+	line-height: var(--line-height-h2);
+	margin-bottom: 2.25rem;
+}
+
+.advantages {
+	display: flex;
+	justify-content: center;
+	gap: 1.875rem;
+}
