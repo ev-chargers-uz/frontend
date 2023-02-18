@@ -1,4 +1,4 @@
-.linkButton {
+.linkButtonPrimary {
 	cursor: pointer;
 	user-select: none;
 	font-size: 1.25rem;
@@ -8,5 +8,18 @@
 	color: var(--color-neutral-1000);
 	padding: 1.125rem 3.125rem;
 	border-radius: 999rem;
+	text-align: center;
+}
+
+.linkButtonSecondary {
+	cursor: pointer;
+	user-select: none;
+	font-size: 1rem;
+	font-weight: var(--font-weight-regular);
+	line-height: 1.75rem;
+	padding: 1rem 3rem;
+	background-color: var(--color-neutral-900);
+	color: var(--color-neutral-0);
+	border-radius: 1rem;
 	text-align: center;
 }
