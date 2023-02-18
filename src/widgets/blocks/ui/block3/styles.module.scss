@@ -1,0 +1,31 @@
+.section {
+	background-image: url("/images/bg-image04.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 47.0625rem;
+}
+
+.wrapper {
+	margin-left: auto;
+	max-width: 29rem;
+	min-height: 47.0625rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.title {
+	font-size: var(--font-size-h2);
+	font-weight: var(--font-weight-bold);
+	line-height: var(--line-height-h2);
+}
+
+.text {
+	font-size: var(--font-size-p);
+	line-height: var(--line-height-p);
+	color: var(--text-color-p);
+	margin: 10px 0 20px;
+	text-align: right;
+}
