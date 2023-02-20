@@ -1,0 +1,40 @@
+.card {
+	background-color: var(--color-neutral-900);
+	padding: 1.5rem;
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 1.125rem;
+}
+
+.image {
+	height: 10rem;
+	width: 100%;
+	border-radius: 1rem;
+	object-fit: cover;
+}
+
+.title {
+	font-size: var(--font-size-h4);
+	line-height: var(--line-height-h4);
+}
+
+.text {
+	font-size: var(--font-size-p);
+	line-height: var(--line-height-p);
+	color: var(--text-color-p);
+}
+
+.link {
+	// Gradient
+	background: linear-gradient(273.58deg, #4AAF3A 0%, #245CEC 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+
+	text-decoration: underline;
+	font-size: var(--font-size-p);
+	line-height: var(--line-height-p);
+}

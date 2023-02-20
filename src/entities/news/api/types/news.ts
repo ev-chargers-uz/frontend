@@ -1,5 +1,5 @@
 export interface newsType {
-	image?: string,
+	image: string,
 	title: string,
 	description: string,
 	link: string,
