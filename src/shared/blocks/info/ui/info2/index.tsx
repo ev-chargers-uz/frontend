@@ -1,7 +1,7 @@
 import { Container, LinkButton } from "@shared/ui";
 import styles from "./styles.module.scss";
 
-export const Block2 = () => {
+export const Info2 = () => {
 	return (
 		<section class={styles.section}>
 			<Container>

@@ -1,21 +1,21 @@
 ---
-import Document from "@app/Document.astro";
-import { Block1, Block2, Block3 } from "@shared/landing/blocks";
+import App from "@app/App.astro";
+import { Info1, Info2, Info3 } from "@shared/blocks/info";
 import { Header } from "@widgets/header";
-import { MainHero } from "@shared/landing/hero";
+import { MainHero } from "@shared/blocks/hero";
 import { Navbar } from "@widgets/navbar";
-import { Advantages } from "@shared/landing/advantages";
+import { Advantages } from "@shared/blocks/advantages";
 import { LatestNews } from "@widgets/latest-news";
 ---
 
-<Document title="main page">
+<App title="main page">
 	<Header navbar={Navbar} />
 	<main>
 		<MainHero />
-		<Block1 />
-		<Block2 />
+		<Info1 />
+		<Info2 />
 		<Advantages />
-		<Block3 />
+		<Info3 />
 		<LatestNews />
 	</main>
-</Document>
+</App>
