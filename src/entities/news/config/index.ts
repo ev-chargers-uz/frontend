@@ -1,10 +1,10 @@
 import type { newsType } from "../api";
 
-export interface newsConfigProps {
+export interface newsConfigType {
 	news: newsType[],
 }
 
-export const newsConfig: newsConfigProps = {
+export const newsConfig: newsConfigType = {
 	news: [
 		{
 			image: "/images/news/news01.png",
