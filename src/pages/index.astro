@@ -15,9 +15,18 @@ import { LatestFaq } from "@widgets/latest-faq";
 		<MainHero />
 		<Info1 />
 		<Info2 />
-		<Advantages />
-		<Info3 />
-		<LatestNews />
-		<LatestFaq />
+		<div class="margins">
+			<Advantages />
+			<LatestNews />
+			<LatestFaq />
+		</div>
 	</main>
 </App>
+
+<style lang="scss">
+	.margins {
+		display: flex;
+		flex-direction: column;
+		gap: 7.5rem;
+	}
+</style>
