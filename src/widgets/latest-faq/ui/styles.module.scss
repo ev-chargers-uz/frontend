@@ -1,0 +1,12 @@
+.title {
+	font-size: var(--font-size-h2);
+	font-weight: var(--font-weight-bold);
+	line-height: var(--line-height-h2);
+	margin-bottom: 1.875rem;
+}
+
+.faqs {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
