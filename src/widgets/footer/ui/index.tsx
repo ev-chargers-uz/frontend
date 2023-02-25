@@ -1,5 +1,14 @@
+import { Container } from "@shared/ui";
+import { FooterBottom } from "./footer-bottom";
+import { FooterTop } from "./footer-top";
+
 export const Footer = () => {
 	return (
-		<footer>footer</footer>
+		<Container>
+			<footer>
+				<FooterTop />
+				<FooterBottom />
+			</footer>
+		</Container>
 	)
 }
