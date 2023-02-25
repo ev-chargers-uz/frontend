@@ -1,11 +1,10 @@
-import { mergeProps } from "solid-js";
+import { JSX, mergeProps } from "solid-js";
 import styles from "./styles.module.scss";
 
 export interface FooterLink {
-	text: string,
+	text: string | JSX.Element,
 	link?: string,
 	target?: "_blank" | "_self",
-	type?: "mail" | "phone" | "anchor",
 }
 
 export interface LinksCardProps {
@@ -14,7 +13,7 @@ export interface LinksCardProps {
 }
 
 export const LinksCard = (props: LinksCardProps) => {
-	const merged = mergeProps( {target: "_self", type: "anchor"}, props );
+	const merged = mergeProps( {target: "_self"}, props );
 
 	return (
 		<div>
