@@ -1,0 +1,25 @@
+.card {
+	background-color: var(--color-neutral-900);
+	padding: 1.5rem;
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.125rem;
+}
+
+.image {
+	height: 15.625rem;
+	width: 100%;
+	border-radius: 1rem;
+	object-fit: cover;
+}
+
+.title {
+	font-size: var(--font-size-h4);
+	line-height: var(--line-height-h4);
+}
+
+.text {
+	font-size: var(--font-size-p);
+	line-height: var(--line-height-p);
+}

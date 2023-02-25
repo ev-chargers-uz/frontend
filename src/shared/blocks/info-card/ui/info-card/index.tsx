@@ -1,3 +1,5 @@
+import styles from "./styles.module.scss";
+
 export interface InfoCardProps {
 	image: string,
 	title: string,
@@ -6,10 +8,10 @@ export interface InfoCardProps {
 
 export const InfoCard = (props: InfoCardProps) => {
 	return (
-		<div>
-			<img src={props.image} alt="cover" />
-			<h4>{props.title}</h4>
-			<p>{props.text}</p>
+		<div class={styles.card}>
+			<img src={props.image} alt="cover" class={styles.image} />
+			<h4 class={styles.title}>{props.title}</h4>
+			<p class={styles.text}>{props.text}</p>
 		</div>
 	)
 }
