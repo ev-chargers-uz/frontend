@@ -1,0 +1,12 @@
+.footerTop {
+	display: flex;
+	justify-content: space-between;
+}
+
+.text {
+	display: flex;
+	align-items: center;
+	font-size: var(--font-size-p);
+	line-height: var(--line-height-p);
+	color: var(--text-color-p);
+}
