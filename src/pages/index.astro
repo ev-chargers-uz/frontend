@@ -1,22 +1,24 @@
 ---
 import App from "@app/App.astro";
-import { Info1, Info2, Info3 } from "@shared/blocks/info";
+import { Section1, Section2 } from "@shared/blocks/section";
 import { Header } from "@widgets/header";
 import { MainHero } from "@shared/blocks/hero";
 import { Navbar } from "@widgets/navbar";
 import { Advantages } from "@shared/blocks/advantages";
 import { LatestNews } from "@widgets/latest-news";
 import { LatestFaq } from "@widgets/latest-faq";
+import { InfoCardsBlock1 } from "@shared/blocks/info-card";
 ---
 
 <App title="main page">
 	<Header navbar={Navbar} />
 	<main>
 		<MainHero />
-		<Info1 />
-		<Info2 />
+		<Section1 />
+		<Section2 />
 		<div class="margins">
 			<Advantages />
+			<InfoCardsBlock1 />
 			<LatestNews />
 			<LatestFaq />
 		</div>
