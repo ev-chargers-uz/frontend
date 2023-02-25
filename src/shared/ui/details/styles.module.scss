@@ -1,0 +1,17 @@
+.details {
+	padding: 1.4375rem 1.5rem;
+	background-color: var(--color-neutral-900);
+	border-radius: 1rem;
+	font-size: var(--font-size-p);
+	line-height: var(--line-height-p);
+	color: var(--text-color-p);
+}
+
+.details[open] .summary {
+	margin-bottom: 1rem;
+}
+
+.summary {
+	cursor: pointer;
+	color: var(--color-neutral-0);
+}
