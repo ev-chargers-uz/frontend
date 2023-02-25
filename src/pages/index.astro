@@ -9,10 +9,13 @@ import { LatestNews } from "@widgets/latest-news";
 import { LatestFaq } from "@widgets/latest-faq";
 import { InfoCardsBlock1 } from "@shared/blocks/info-card";
 import { ChargersMap } from "@widgets/chargers-map";
+import { Footer } from "@widgets/footer";
 ---
 
 <App title="main page">
+
 	<Header navbar={Navbar} />
+
 	<main>
 		<MainHero />
 		<Section1 />
@@ -25,12 +28,18 @@ import { ChargersMap } from "@widgets/chargers-map";
 			<ChargersMap />
 		</div>
 	</main>
+
+	<Footer />
+
 </App>
+
+
 
 <style lang="scss">
 	.margins {
 		display: flex;
 		flex-direction: column;
 		gap: 7.5rem;
+		margin-bottom: 7.5rem;
 	}
 </style>
