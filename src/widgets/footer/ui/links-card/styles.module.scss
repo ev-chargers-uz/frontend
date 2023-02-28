@@ -12,6 +12,12 @@
 	gap: 1rem;
 }
 
+.link {
+	display: flex;
+	gap: 1.875rem;
+	align-items: center;
+}
+
 .text {
 	font-size: var(--font-size-p);
 	line-height: var(--line-height-p);

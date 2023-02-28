@@ -57,14 +57,17 @@ export const FooterTop = () => {
 						text: `${config.company.phone}`,
 						link:`tel:${config.company.phone}`,
 						target: "_blank",
+						icon: "/icons/phone.svg",
 					},
 					{
 						text: `${config.company.email}`,
 						link: `mailto:${config.company.email}`,
 						target: "_blank",
+						icon: "/icons/email.svg",
 					},
 					{
 						text: <> 3876 Tashkent, Amir <br /> Temur st. 27, 3 </>,
+						icon: "/icons/location.svg",
 					},
 				]}
 			/>
